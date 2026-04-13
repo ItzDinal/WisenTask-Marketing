@@ -4,15 +4,15 @@ import Button from "../ui/Button";
 const Navbar = () => {
   return (
      <nav className="backdrop-blur-md bg-white/5 border-b border-white/10">
-        <div className="flex h-34 items-start justify-between pl-0 pr-0 pt-1">
+        <div className="flex h-44 items-center justify-between pl-0 pr-0">
 
           {/* LEFT: Logo */}
-          <div className="flex items-start gap-10">
+          <div className="flex items-center gap-10">
 
             <img src={logo} alt="WisenTask logo" className="h-40 w-auto" />
 
             {/* NEW: Nav Links */}
-            <div className="hidden self-center md:flex items-center gap-10 text-base text-gray-300">
+            <div className="hidden md:flex items-center gap-10 text-base text-gray-300">
               <a href="#" className="rounded-md px-3 py-2 transition hover:text-white">Features</a>
               <a href="#" className="rounded-md px-3 py-2 transition hover:text-white">How it Works</a>
               <a href="#" className="rounded-md px-3 py-2 transition hover:text-white">Pricing</a>
