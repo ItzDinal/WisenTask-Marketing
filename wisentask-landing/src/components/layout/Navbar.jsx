@@ -7,12 +7,12 @@ const Navbar = () => {
         <div className="flex h-44 items-center justify-between pl-0 pr-0">
 
           {/* LEFT: Logo */}
-          <div className="flex items-center gap-10">
+          <div className="flex h-full items-center gap-10">
 
-            <img src={logo} alt="WisenTask logo" className="h-40 w-auto" />
+            <img src={logo} alt="WisenTask logo" className="h-36 w-auto" />
 
             {/* NEW: Nav Links */}
-            <div className="hidden md:flex items-center gap-10 text-base text-gray-300">
+            <div className="hidden h-full md:flex items-center gap-10 text-base text-gray-300">
               <a href="#" className="rounded-md px-3 py-2 transition hover:text-white">Features</a>
               <a href="#" className="rounded-md px-3 py-2 transition hover:text-white">How it Works</a>
               <a href="#" className="rounded-md px-3 py-2 transition hover:text-white">Pricing</a>
