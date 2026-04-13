@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 const Navbar = () => {
   return (
      <nav className="backdrop-blur-md bg-white/5 border-b border-white/10">
-        <div className="flex h-44 items-center justify-between pl-0 pr-0">
+        <div className="flex h-30 items-center justify-between pl-0 pr-0">
 
           {/* LEFT: Logo */}
           <div className="flex h-full items-center gap-10">
